@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to-do-list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div id="main-body">
+        <div class="logo"><img src="./image/Logo.png" alt="todologo"></div>
+       <div class="enter-text">
+        <input type="text" id="input-box" placeholder="Enter Your To-do List Task">
+        <button onclick="addTask()" >Add <img src="./image/Layer 2.png" alt="add symbol"></button>
+       </div>
+       <div id="to-do-heading">
+        <div class="to-do-left">To-do list</div>
+        <div class="to-do-right">High Priority</div>
+    </div>
+        <div id="to-do-card">
+            <ul id="list-container">
+                <!-- <li class="checked">test1</li>
+                <li>test1</li> -->
+                
+            </ul>
+        </div>
+        
+        <div class="start" >
+            <div>Started</div>
+            <div>High Priority</div>
+        </div>
+        <div class="complete">
+            <div>Completed</div>
+            <div>High Priority</div>
+        </div>
+        
+     </div>
+        
+    <script src="script.js"></script>
+</body>
+</html>
