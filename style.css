@@ -111,8 +111,9 @@ ul li::before{
   
 }
 ul li.checked{
-    color: #555;
+    color: gray;
     text-decoration: line-through;
+    
 }
 ul li.checked::before{
     background-image: url(./image/rightclick.png);
